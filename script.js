@@ -1,8 +1,10 @@
-$document.ready(function(){
-    $(".saveButton").on("click", function() {
-        var value = $(this).siblings(".description").val();
-        var time = $(this).parent().attr("id");
+var questionsAsked = 0;
+var time = questions.length * 10;
+var timerId;
 
-        localStorage.setItem(time, value);
-    });
-}
+var currentTime = document.getElementById("");
+var timer = document.getElementById("");
+var choices = document.getElementById("");
+var submitButton = document.getElementById("");
+var startButton = document.getElementById("");
+var initials = document.getElementById("");
