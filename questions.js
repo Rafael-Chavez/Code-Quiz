@@ -36,4 +36,4 @@ var questions = [
         choices: ["three", "rock", "paper", "scissors"],
         answer: "three"
     },
-]
+];
